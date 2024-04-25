@@ -11,10 +11,7 @@ pool: agent_001
 steps:
 - task: Maven@4
   inputs:
-- task: Maven@4
-  inputs:
     mavenPomFile: 'pom.xml'
-    goals: 'compile'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     javaHomeOption: 'JDKVersion'
