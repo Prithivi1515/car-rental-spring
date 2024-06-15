@@ -4,7 +4,7 @@ Car Rental System is a simple system designed to meet the needs of companies ren
 It has been designed using a layered architecture, enabling effective management of business logic, presentation and data access. 
 
 **This repository contains only the backend.
-Frontend of the project - [car-rental-system-react](https://github.com/Mr-Victor16/car-rental-system-react)**
+Frontend of the project - [car-rental-system-react](https://github.com/Prithivi1515/Car-rental-reactt)**
 
 ## Technologies used
 + Spring Framework, Spring Boot, Spring Security, Spring Data JPA
@@ -12,7 +12,7 @@ Frontend of the project - [car-rental-system-react](https://github.com/Mr-Victor
 + JWT
 + REST API
 + MySQL
-+ Docker, Docker Compose
+
 
 ## Features
 + **General:**
@@ -30,20 +30,7 @@ Frontend of the project - [car-rental-system-react](https://github.com/Mr-Victor
   + manage rentals (show information, edit, delete, change status),
   + manage users (show list, add, delete, change role).
 
-##  Database schema
-![db_schema_v2](https://github.com/Mr-Victor16/car-rental-system-spring/assets/101965882/e0fe0a30-f19a-4c7d-a04b-96f251c79dc7)
-_The schema was created using Apache Workbench._
 
-## Running the project with Docker Compose
-1. Clone this repository
-   ```bash
-    git clone https://github.com/Mr-Victor16/car-rental-system-spring
-   ```
-2. Go to the folder with cloned repository
-3. Run docker compose
-   ```bash
-    docker compose up
-   ```
 
 ## Login details
 + Administrator  
